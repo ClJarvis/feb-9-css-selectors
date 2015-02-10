@@ -12,5 +12,61 @@ Attribute                    ([type="text"])
 Pseudo-classes/-elements     (a:hover)
 */
 
+.bordered {
+	border: 1px solid black;
+}
 
+header {
+	font-size: 20px;	
+}
 
+.padded {
+	padding: 20px;
+}
+
+footer {
+	border: 2px dashed red;
+	text-align: center;
+}
+
+.promo {
+	color: gold;
+	font-weight: bold;
+}
+
+li:nth-child(1) a{
+	background-color: black;
+	color: white;
+}
+ 
+ .month-list a{
+ 	text-decoration: none;
+ 	color: grey;
+ }
+
+ .month-list a > .active{
+ 	color: green;
+ 	text-decoration: underline;
+  }
+
+  li:nth-child;(2n) a{
+  	color: pink;
+  }
+
+li:last-child a{
+	color:red;
+}
+#november{
+	color: orange;
+}
+#november:before{
+	content: "I love turkey!";
+} 
+
+#november:after{
+	content: "Moooore Turkey";
+}
+
+li:nth-child;(8) a{
+  	color: blue;
+  }
