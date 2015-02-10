@@ -53,6 +53,12 @@ li:nth-child(1) a{
   	color: pink;
   }
 
+
+li:nth-child(8) a{
+  	color: blue;
+  }
+
+
 li:last-child a{
 	color:red;
 }
@@ -67,6 +73,3 @@ li:last-child a{
 	content: "Moooore Turkey";
 }
 
-li:nth-child;(8) a{
-  	color: blue;
-  }
